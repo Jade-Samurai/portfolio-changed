@@ -88,6 +88,7 @@ body{
 .portfolio-cards{
     margin: 40px 0 0;
     font-size: 0;
+    
 }
 .portfolio-card{
     width: 380px;
@@ -97,6 +98,11 @@ body{
     margin-bottom: 30px;
     border-radius: 15px;
     overflow: hidden;
+    margin-left: 30px;    
+}
+.portfolio-card:first-child,
+.portfolio-card:nth-child(4){
+    margin-left: 0;
 }
 .portfolio-card img{
     width: 100%;
