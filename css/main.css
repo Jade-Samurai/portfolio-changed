@@ -1,20 +1,19 @@
+@import url(font-style.css);
 @import url(reset.css);
 
 h1{
-    font-weight: 500;
     font-size: 45px;
 }
 h2{
-    font-weight: 500;
     font-size: 30px;
     text-transform: uppercase;
 }
 h3{
-    font-weight: 500;
     font-size: 24px;
 }
 body{
     font-family: "Poppins", sans-serif;
+    font-weight: 500;
 	background: #0C151D;
 	color: #FFF;
 	font-size: 22px;
