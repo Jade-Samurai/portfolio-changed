@@ -29,17 +29,30 @@ body{
     padding: 33px 0 80px;
 }
 .header-them-btn{
-    padding-bottom: 65px;
+    width: 80px;
+    height: 80px;
+    margin: 30px auto 65px;
+    background: #171F26;
+    border-radius: 50%;
+}
+.header-them-btn img{
+    width: 50%;
+    height: 50%;
+    margin: 20px;
 }
 .header-user-info{
     font-size: 0;
+    color: #F1F2F4;
 }
 .header-info{
     display: inline-block;
     vertical-align: middle;
-    width: 372px;
-    height: 156px;
+    font-size: 22px;
+    margin: 0 auto;
     text-align: left;
+}
+.header-info >p{
+    color: #A3ABB2;
 }
 .header-info:nth-child(2){
     margin-left: 40px;
@@ -56,7 +69,8 @@ body{
 .social{
     width: 36px;
     height: 36px;
-    display: inline;
+    display: inline-block;
+    margin-top: 12px;
     margin-left: 26px;
 }
 .social a img:hover{
@@ -73,29 +87,25 @@ body{
     object-fit: cover;
 }
 
-.header-title{
-    color: #F1F2F4;
-}
+
 .header-descript{
     color: #A3ABB2;
     margin-top: 3px;
     margin-bottom: 12px;
     font-size: 22px;
 }
-.header-experience{
-    width: 1200px;
-    margin: 0 auto;
+.header-experience{    
     margin-top: 68px;
+    font-size: 0;
 }
 .achievements{
     width: 148px;
     display: inline-block;
     margin-left: 90px;
+    font-size: 22px;
     color: #A3ABB2;
 }
-.achievements:first-child{
-    margin-left: 0;
-}   
+
 .header-link{
     margin-top: 67px;
     font-size: 0;
